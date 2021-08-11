@@ -1,0 +1,35 @@
+#!/bin/env bash
+
+# Script make by: Pedro Portales
+# GitLab: gitlab.com/pedro.portales
+# Telegram: @Pedro_Portales
+
+printf "\nInstalling Fonts...\n"
+printf "Installing CodeNewRoman NerdFont...\n"
+cd "$HOME/.local/share/fonts"
+printf "Working in directory" pwd
+wget -c 'https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/CodeNewRoman.zip'
+
+printf "\nInstalling FiraCode NerdFont...\n"
+wget -c 'https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip'
+
+printf "\nInstalling Hack NerdFont...\n"
+wget -c 'https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip'
+
+printf "\nInstalling Mononoki NerdFont...\n"
+wget -c 'https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Mononoki.zip'
+
+printf "\nInstalling MPlus NerdFont...\n"
+wget -c 'https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/MPlus.zip'
+
+printf "\n\nUnzipping Fonts..."
+mkdir CodeNewRoman
+unzip CodeNewRoman.zip CodeNewRoman/
+mkdir FiraCode
+unzip FiraCode.zip FiraCode/
+mkdir Hack
+unzip Hack.zip Hack/
+mkdir Mononoki
+unzip Mononoki.zip Mononoki/
+mkdir MPlus
+unzip MPlus.zip MPlus/

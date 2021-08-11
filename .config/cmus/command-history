@@ -1,0 +1,40 @@
+add ~/Música/cmus musics/
+clear
+set status_display_program=cmusfm
+clear 
+colorscheme default
+set color_cmdline_bg=default
+add /home/pedro/Música/cmus musics/
+load /home/pedro/Música/cmus musics/
+colorscheme jellybeans
+colorscheme green-mono-88
+colorscheme gray-88
+colorscheme amazon
+colorscheme cyan
+colorscheme solarized-dark
+colorscheme dracula
+player-prev'
+colorscheme gruvbox
+bind common <key> colorscheme
+set repeat=true
+wq
+set status_display_program=nowplaying
+update
+upgrade
+pause
+add ./
+reload
+add /home/pedro/Música/playlists/Rock/
+bind common <key> clear
+remove /home/pedro/Música
+add /home/pedro/Música
+set dsp.ao.wav_dir=/home/pedro/
+set color_win_inactive_cur_sel_bg=black
+set color_win_inactive_cur_sel_bg=grey
+set color_win_inactive_cur_sel_bg=white
+set dsp.ao.wav_dir=/home/pedro/Música
+set mouse=true
+set play_library=true
+colorscheme Dracula
+colorscheme
+bind common <key> adda

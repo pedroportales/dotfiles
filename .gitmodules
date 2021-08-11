@@ -1,0 +1,3 @@
+[submodule "compile/dwm"]
+	path = compile/dwm
+	url = https://github.com/pedroportales/dwm.git

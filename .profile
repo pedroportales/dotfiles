@@ -1,0 +1,21 @@
+#init my oksh
+export ENV="$HOME/.kshrc"
+
+# Native display Wayland
+#export BEMENU_BACKEND='wayland'
+#export MOZ_ENABLE_WAYLAND=1
+#export SAL_USE_VCLPLUGIN='gtk3'
+#export GDK_BACKEND='wayland'
+#export XDG_SESSION_TYPE='wayland'
+#export QT_QPA_PLATFORM='wayland'
+#export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+#export CLUTTER_BACKEND='wayland'
+#export SDL_VIDEODRIVER='wayland'
+#export ECORE_EVAS_ENGINE='wayland_egl'
+#export ELM_ENGINE='wayland_egl'
+#export _JAVA_AWT_WM_NONREPARENTING=1
+#export QT_AUTO_SCREEN_SCALE_FACTOR=0
+#export XDG_CURRENT_DESKTOP=sway
+
+#dunst &
+#exec sway
