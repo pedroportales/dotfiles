@@ -1,0 +1,16 @@
+{
+	"ignored_packages":
+	[
+		"Rust",
+		"Vintage",
+	],
+	"theme": "Adaptive.sublime-theme",
+	"color_scheme": "Nord.sublime-color-scheme",
+
+	// Note that the font_face and font_size are overridden in the platform
+	// specific settings file, for example, "Preferences (Linux).sublime-settings".
+	// Because of this, setting them here will have no effect: you must set them
+	// in your User File Preferences.
+	"font_face": "FuraCode Nerd Font",
+	"font_size": 14,
+}

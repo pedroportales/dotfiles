@@ -1,0 +1,527 @@
+{
+	"folder_history":
+	[
+		"/home/pedro/Documentos/artigos/jekyll-blog/_posts",
+		"/home/pedro/.repos-git/studying-programming",
+		"/home/pedro/.repos-git"
+	],
+	"last_version": 4126,
+	"last_window_id": 9,
+	"log_indexing": false,
+	"next_update_check": 1643812478,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 600.0,
+		"new_window_maximized": true,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"print",
+						"printf"
+					],
+					[
+						"prin",
+						"printf"
+					],
+					[
+						"i",
+						"inc"
+					],
+					[
+						"std",
+						"stdio.h"
+					],
+					[
+						"in",
+						"inc"
+					],
+					[
+						"c",
+						"struct"
+					],
+					[
+						"mai",
+						"main"
+					],
+					[
+						"tota",
+						"total_min"
+					],
+					[
+						"str",
+						"struct"
+					],
+					[
+						"stdi",
+						"stdio.h"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"select",
+						"UI: Select Theme"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"theme",
+						"UI: Select Theme"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 124.0,
+				"history":
+				[
+					"exit",
+					"exit()",
+					"ls -la"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-01-22-iwd-substituto-networkmanager.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2022-02-01-godot-4.0-esta-chegando,-e-com-suporte-ao-vulkan.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-09-30-entenda-tudo-sobre-o-hd-pt1.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-09-12-quatro-distros-para-iniciantes.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-09-01-7-distros-minimalistas.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-08-15-Steam-deck-e-o-que-posso-dizer-dele.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-01-22-linux-sem-pendrive.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-06-23-swappiness-guide.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-06-25-windows-11-lancado.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-07-13-Como-instalar-Roblox-no-Linux.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-05-04-como-usar-runit.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-05-09-como-instalar-o-batocera-plus-dual-boot-linux.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-06-16-como-gravar-a-tela-no-wayland.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-06-17-windows-11-vale-a-pena.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-06-19-scrcpy-espelhe-a-tela.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-01-21-os-10-principais-comandos.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-01-21-como-instalar-o-yay.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2020-12-11-guia-dos-twms.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2020-12-11-fsck.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-09-09-melhores-apps.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2020-11-11-como-configurar-o-Openbox.md",
+				"/home/pedro/.repos-git/studying-programming/C-lang/introducao-a-programacao-com-c/media-de-dois-numeros.c",
+				"/home/pedro/.repos-git/studying-programming/C-lang/introducao-a-programacao-com-c/media-de-tres-numeros.c",
+				"/home/pedro/.repos-git/studying-programming/C-lang/introducao-a-programacao-com-c/primeiro.c",
+				"/home/pedro/.repos-git/studying-programming/python/alg2.py",
+				"/home/pedro/.repos-git/studying-programming/python/alg1.py",
+				"/home/pedro/.repos-git/studying-programming/CRUD/C-CRUD/main.c",
+				"/home/pedro/.repos-git/studying-programming/python/alg3.py",
+				"/home/pedro/.repos-git/studying-programming/python/python-com-projetos/exercicios/ex003.py"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 44.0
+			},
+			"menu_visible": true,
+			"output.diagnostics":
+			{
+				"height": 0.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 287.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 800.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"print",
+						"printf"
+					],
+					[
+						"prin",
+						"printf"
+					],
+					[
+						"i",
+						"inc"
+					],
+					[
+						"std",
+						"stdio.h"
+					],
+					[
+						"in",
+						"inc"
+					],
+					[
+						"c",
+						"struct"
+					],
+					[
+						"mai",
+						"main"
+					],
+					[
+						"tota",
+						"total_min"
+					],
+					[
+						"str",
+						"struct"
+					],
+					[
+						"stdi",
+						"stdio.h"
+					]
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"select",
+						"UI: Select Theme"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"theme",
+						"UI: Select Theme"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 124.0,
+				"history":
+				[
+					"exit",
+					"exit()",
+					"ls -la"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts"
+			],
+			"file_history":
+			[
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-01-22-iwd-substituto-networkmanager.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2022-02-01-godot-4.0-esta-chegando,-e-com-suporte-ao-vulkan.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-09-30-entenda-tudo-sobre-o-hd-pt1.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-09-12-quatro-distros-para-iniciantes.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-09-01-7-distros-minimalistas.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-08-15-Steam-deck-e-o-que-posso-dizer-dele.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-01-22-linux-sem-pendrive.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-06-23-swappiness-guide.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-06-25-windows-11-lancado.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-07-13-Como-instalar-Roblox-no-Linux.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-05-04-como-usar-runit.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-05-09-como-instalar-o-batocera-plus-dual-boot-linux.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-06-16-como-gravar-a-tela-no-wayland.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-06-17-windows-11-vale-a-pena.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-06-19-scrcpy-espelhe-a-tela.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-01-21-os-10-principais-comandos.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-01-21-como-instalar-o-yay.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2020-12-11-guia-dos-twms.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2020-12-11-fsck.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2021-09-09-melhores-apps.md",
+				"/home/pedro/Documentos/artigos/jekyll-blog/_posts/2020-11-11-como-configurar-o-Openbox.md",
+				"/home/pedro/.repos-git/studying-programming/C-lang/introducao-a-programacao-com-c/media-de-dois-numeros.c",
+				"/home/pedro/.repos-git/studying-programming/C-lang/introducao-a-programacao-com-c/media-de-tres-numeros.c",
+				"/home/pedro/.repos-git/studying-programming/C-lang/introducao-a-programacao-com-c/primeiro.c",
+				"/home/pedro/.repos-git/studying-programming/python/alg2.py",
+				"/home/pedro/.repos-git/studying-programming/python/alg1.py",
+				"/home/pedro/.repos-git/studying-programming/CRUD/C-CRUD/main.c",
+				"/home/pedro/.repos-git/studying-programming/python/alg3.py",
+				"/home/pedro/.repos-git/studying-programming/python/python-com-projetos/exercicios/ex003.py"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/pedro/Documentos/artigos/jekyll-blog/_posts"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 44.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.diagnostics":
+			{
+				"height": 0.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,0,800,600,3286,1080,0",
+			"project": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 287.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 9,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
