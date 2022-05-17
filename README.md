@@ -5,4 +5,3 @@ My WM is the dwm, the suckless wm.
 
 I use Arch, and suckless programs btw
 
-![Title](ricing-finale.png)
