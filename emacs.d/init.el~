@@ -1,0 +1,2 @@
+;; Thanks, but no thanks
+(setq inhibit-startup-message t)
