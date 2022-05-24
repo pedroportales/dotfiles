@@ -104,6 +104,11 @@
 
 (use-package rustic)
 
+(use-package dashboard
+  :ensure t
+  :config
+  (dashboard-setup-startup-hook))
+
 (use-package which-key
   :defer 0
   :diminish which-key-mode
@@ -123,3 +128,4 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
