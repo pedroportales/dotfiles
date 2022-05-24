@@ -8,9 +8,6 @@
 ;; The default is 800 kilobytes.  Measured in bytes.
 (setq gc-cons-threshold (* 50 1000 1000))
 
-;; The default is 800 kilobytes.  Measured in bytes.
-(setq gc-cons-threshold (* 50 1000 1000))
-
 (defun efs/display-startup-time ()
   (message "Emacs loaded in %s with %d garbage collections."
            (format "%.2f seconds"
@@ -109,6 +106,19 @@
   :config
   (dashboard-setup-startup-hook))
 
+(use-package auto-complete)
+
+(use-package lsp-mode
+    :hook (python-mode . lsp-deferred)
+    :commands (lsp lsp-deferred))
+
+(use-package lsp-jedi
+  :ensure t
+  :config
+  (with-eval-after-load "lsp-mode"
+    (add-to-list 'lsp-disabled-clients 'pyls)
+    (add-to-list 'lsp-enabled-clients 'jedi)))
+
 (use-package which-key
   :defer 0
   :diminish which-key-mode
@@ -121,7 +131,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(which-key doom-modeline all-the-icons doom-themes use-package no-littering auto-package-update)))
+   '(lsp-mode which-key doom-modeline all-the-icons doom-themes use-package no-littering auto-package-update)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
