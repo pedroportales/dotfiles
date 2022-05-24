@@ -99,25 +99,20 @@
   :init (doom-modeline-mode 1)
   :custom ((doom-modeline-height 15)))
 
-(use-package rustic)
-
 (use-package dashboard
   :ensure t
   :config
   (dashboard-setup-startup-hook))
 
-(use-package auto-complete)
+(use-package company)
+(add-hook 'after-init-hook 'global-company-mode)
 
-(use-package lsp-mode
-    :hook (python-mode . lsp-deferred)
-    :commands (lsp lsp-deferred))
-
-(use-package lsp-jedi
-  :ensure t
-  :config
-  (with-eval-after-load "lsp-mode"
-    (add-to-list 'lsp-disabled-clients 'pyls)
-    (add-to-list 'lsp-enabled-clients 'jedi)))
+(use-package eglot)
+(add-to-list 'eglot-server-programs '((c++-mode c-mode) "clangd"))
+(add-to-list 'eglot-server-programs 'python-mode "pylsp")
+(add-hook 'c-mode-hook 'eglot-ensure)
+(add-hook 'c++-mode-hook 'eglot-ensure)
+(add-hook 'python-mode-hook 'eglot-ensure)
 
 (use-package which-key
   :defer 0
