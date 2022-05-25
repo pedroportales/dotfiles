@@ -107,12 +107,18 @@
 (use-package company)
 (add-hook 'after-init-hook 'global-company-mode)
 
+(use-package rustic)
+(setq rustic-lsp-server 'rls)
+(setq rustic-lsp-client 'eglot)
+
 (use-package eglot)
-(add-to-list 'eglot-server-programs '((c++-mode c-mode) "clangd"))
-(add-to-list 'eglot-server-programs 'python-mode "pylsp")
+(add-to-list 'eglot-server-programs '((c++-mode c-mode) "clangd")) ;; C and C++
+(add-to-list 'eglot-server-programs 'python-mode "pylsp") ;; Python
+(add-to-list 'eglot-server-programs 'rust-mode "rustic") ;; rust
 (add-hook 'c-mode-hook 'eglot-ensure)
 (add-hook 'c++-mode-hook 'eglot-ensure)
 (add-hook 'python-mode-hook 'eglot-ensure)
+(add-hook 'rust-mode-hook 'eglot-ensure)
 
 (use-package which-key
   :defer 0
