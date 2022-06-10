@@ -102,6 +102,11 @@
   :init (doom-modeline-mode 1)
   :custom ((doom-modeline-height 15)))
 
+(use-package elcord
+  :ensure t)
+(require 'elcord)
+(elcord-mode)
+
 (use-package dashboard
   :ensure t
   :config

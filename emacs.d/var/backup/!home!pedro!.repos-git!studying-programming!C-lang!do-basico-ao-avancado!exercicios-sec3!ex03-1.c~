@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+  int i;
+  int num[4];
+
+  for(i = 0; i >= 3; i++) {
+    printf("Digite o %dº número inteiro", i);
+    scanf("%d", &num[i]);
+    
+  }
+
+  printf("A soma dos três números é %d\n", num[1]+num[2]+num[3]);
+  
+  return 0;
+}
+

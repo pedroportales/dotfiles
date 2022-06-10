@@ -1,0 +1,128 @@
+rm out 
+ls -la
+ls -la .
+ls -la ..
+rm .\#main.c
+clear
+ls -la
+chmod +x envs.sh 
+gcc -o main.c 
+ls -la
+gcc main.c 
+./a.out
+rm a.out 
+gcc main.c 
+./a.out
+em envs.sh 
+rm envs.sh 
+ls -la
+rm a.out 
+ls -la
+gcc main.c 
+./a.out
+git commit -am "init new way to read system"
+git push
+gcc main.c 
+./a.out
+rm a.out 
+gcc main.c 
+rm a.out 
+gcc main.c 
+./a.out
+rm a.out 
+gcc main.c 
+./a.out
+rm a.out 
+gcc main.c 
+./a.out
+git commit -am "return to lsb_release"
+git push
+ls -la
+rm a.out 
+gcc main.c -o a
+./a
+ls -la
+gcc programa1.c 
+./a.out 
+rm a.out 
+gcc programa1.c 
+./a.out 
+rm a.out 
+git add .
+git commit -m "variáveis C"
+git push
+ls -la
+gcc ex03.c 
+./a.out
+rm a.out 
+gcc ex03-1.c -o soma-dos-tres
+./soma-dos-tres 
+rm soma-dos-tres 
+gcc ex03-1.c -o soma-dos-tres
+./soma-dos-tres 
+rm soma-dos-tres 
+git add .
+git commit -m "exercicios C"
+git push
+clear 
+rm soma-dos-tres 
+gcc ex03-1.c -o soma-dos-tres
+./soma-dos-tres 
+rm soma-dos-tres 
+gcc ex03-1.c -o soma-dos-tres
+./soma-dos-tres 
+rm soma-dos-tres 
+gcc ex03-2.c -o soma-dos-tres
+./soma-dos-tres 
+rm soma-dos-tres 
+git status
+git add ex03-2.c 
+git commit -m "ex03-2 C"
+git push
+cat ex03-1.c 
+git add . 
+git commit -m "ex03-1"
+git push
+ls -la
+gcc ex04.c 
+./a.out
+rm a.out 
+ls -la
+gcc ex04.c 
+./a.out
+rm a.out 
+cd .repos-git/studying-programming/C-lang/do-basico-ao-avancado/
+git add .
+git commit -m "ex04"
+git push
+ls -la
+gcc ex05.c 
+./a.out
+rm a.out 
+git add ex05.c 
+git commit -m "ex05 c"
+git push
+gcc ex06.c 
+./a.out 
+rm a.out 
+git add .
+git commit -m "ex06 c"
+git push
+git add ex07.c && git commit -m "ex07 c" && git push
+ls -la
+git add ex08.c 
+git commit -m "ex08 c" && git push
+rm a 
+ls -la
+git add main.c 
+git commit -m "use /etc/os-release"
+git push
+gcc main.c -o ppfetch.exe
+./ppfetch.exe 
+rm ppfetch.exe 
+gcc main.c -o ppfetch.exe
+./ppfetch.exe 
+rm ppfetch.exe 
+git status
+git commit -am "string shell"
+git push
