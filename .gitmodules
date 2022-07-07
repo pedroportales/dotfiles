@@ -1,3 +1,6 @@
 [submodule "compile/dwm"]
 	path = compile/dwm
 	url = https://github.com/pedroportales/dwm.git
+[submodule ".config/awesome/themes/nord"]
+	path = .config/awesome/themes/nord
+	url = git@github.com:pedroportales/awesome-nord-theme.git
