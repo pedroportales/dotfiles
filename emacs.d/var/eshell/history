@@ -1,12 +1,3 @@
-rm out 
-ls -la
-ls -la .
-ls -la ..
-rm .\#main.c
-clear
-ls -la
-chmod +x envs.sh 
-gcc -o main.c 
 ls -la
 gcc main.c 
 ./a.out
@@ -126,3 +117,12 @@ rm ppfetch.exe
 git status
 git commit -am "string shell"
 git push
+gcc main.c -o ppfetch.exe
+ls -la
+git add main.c 
+git commit -m "wm name test 1"
+git push
+neofetch 
+ppfetch 
+cd .repos-git/studying-programming/lua/
+mkdir desafios

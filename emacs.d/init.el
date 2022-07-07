@@ -1,6 +1,6 @@
 ;; You will most likely need to adjust this font size for your system!
-(defvar efs/default-font-size 180)
-(defvar efs/default-variable-font-size 180)
+(defvar efs/default-font-size 160)
+(defvar efs/default-variable-font-size 160)
 
 ;; Make frame transparency overridable
 (defvar efs/frame-transparency '(90 . 90))
@@ -31,7 +31,7 @@
 (unless package-archive-contents
   (package-refresh-contents))
 
-  ;; Initialize use-package on non-Linux platforms
+;; Initialize use-package on non-Linux platforms
 (unless (package-installed-p 'use-package)
   (package-install 'use-package))
 
@@ -115,18 +115,16 @@
 (use-package company)
 (add-hook 'after-init-hook 'global-company-mode)
 
-(use-package rustic)
-(setq rustic-lsp-server 'rls)
-(setq rustic-lsp-client 'eglot)
 
 (use-package eglot)
 (add-to-list 'eglot-server-programs '((c++-mode c-mode) "clangd")) ;; C and C++
 (add-to-list 'eglot-server-programs 'python-mode "pylsp") ;; Python
-(add-to-list 'eglot-server-programs 'rust-mode "rustic") ;; rust
+(add-to-list 'eglot-server-programs 'lua-mode "lua-language-server") ;; Lua
 (add-hook 'c-mode-hook 'eglot-ensure)
 (add-hook 'c++-mode-hook 'eglot-ensure)
 (add-hook 'python-mode-hook 'eglot-ensure)
-(add-hook 'rust-mode-hook 'eglot-ensure)
+(add-hook 'lua-mode-hook 'eglot-ensure)
+
 
 (use-package which-key
   :defer 0

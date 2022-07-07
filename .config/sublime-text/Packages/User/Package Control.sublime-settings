@@ -5,8 +5,10 @@
 	],
 	"installed_packages":
 	[
+		"Discord Rich Presence",
 		"Jedi - Python autocompletion",
 		"LSP",
+		"LuaExtended",
 		"Nord",
 		"Package Control",
 		"Rust Enhanced",
