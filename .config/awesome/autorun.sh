@@ -8,5 +8,4 @@ function run {
 }
 
 run dos2unix
-run feh --bg-scale ~/Imagens/alena-aenami-night-1k-nord.png
-
+run ~/.screenlayout/awesomewm-screen.sh
