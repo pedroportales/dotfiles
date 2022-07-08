@@ -21,6 +21,25 @@ local hotkeys_popup = require("awful.hotkeys_popup")
 -- when client with a matching name is opened:
 require("awful.hotkeys_popup.keys")
 
+-- Taglist
+function colorize_text(txt, fg)
+    return "<span foreground='" .. fg .."'>" .. txt .. "</span>"
+end
+
+-- Helper function that updates a taglist item
+local update_taglist = function (item, tag, index)
+  if tag.selected then
+    item.markup = colorize_text(beautiful.taglist_text_focused[index], beautiful.taglist_fg_focus)
+  elseif tag.urgent then
+    item.markup = colorize_text(beautiful.taglist_text_urgent[index], beautiful.taglist_fg_urgent)
+  elseif #tag:clients() > 0 then
+    item.markup = colorize_text(beautiful.taglist_text_occupied[index], beautiful.taglist_fg_occupied)
+  else
+    item.markup = colorize_text(beautiful.taglist_text_empty[index], beautiful.taglist_fg_empty)
+  end
+end
+
+
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to
 -- another config (This code will only ever execute for the fallback config)
@@ -173,7 +192,7 @@ awful.screen.connect_for_each_screen(function(s)
     set_wallpaper(s)
 
     -- Each screen has its own tag table.
-    awful.tag({ "1", "2", "3", "4", "5", "6", "7", "8", "9"}, s, awful.layout.layouts[1])
+    awful.tag({ "1", "2", "3", "4", "5", "6", "7", "8", "9" }, s, awful.layout.layouts[1])
 
     -- Create a promptbox for each screen
     s.mypromptbox = awful.widget.prompt()
@@ -189,33 +208,71 @@ awful.screen.connect_for_each_screen(function(s)
     s.mytaglist = awful.widget.taglist {
         screen  = s,
         filter  = awful.widget.taglist.filter.all,
+        widget_template = {
+          widget = wibox.widget.textbox,
+          create_callback = function(self, tag, index, _)
+            self.align = "left"
+            self.valign = "center"
+            self.font = beautiful.taglist_text_font
+
+            update_taglist(self, tag, index)
+          end,
+          update_callback = function(self, tag, index, _)
+            update_taglist(self, tag, index)
+          end,
+        },
         buttons = taglist_buttons
     }
 
     -- Create a tasklist widget
     s.mytasklist = awful.widget.tasklist {
         screen  = s,
-        filter  = awful.widget.tasklist.filter.currenttags,
-        buttons = tasklist_buttons
+        filter  = awful.widget.tasklist.filter.focused,
+
+        widget_template = {
+          -- {
+          --  wibox.widget.base.make_widget(),
+          --  forced_height = 5,
+          --  id            = 'background_role',
+          --  widget        = wibox.container.background,
+          --},
+          {
+            --{
+                --id     = 'clienticon',
+                --widget = awful.widget.clienticon,
+            --},
+            margins = 5,
+            widget  = wibox.container.margin
+          },
+          nil,
+          layout = wibox.layout.align.vertical,
+        },
+        -- buttons = tasklist_buttons
     }
 
     -- Create the wibox
-    s.mywibox = awful.wibar({ position = "top", screen = s, bg = beautiful.bg_normal})
+    s.mywibox = awful.wibar({ position = "top", screen = s , bg = beautiful.bg_normal})
+
+    s.systray = wibox.widget.systray()
+    s.systray.visible = true
+
+    
+    -- s.focused_window = ""
 
     -- Add widgets to the wibox
     s.mywibox:setup {
         layout = wibox.layout.align.horizontal,
+    expand = "none",
         { -- Left widgets
             layout = wibox.layout.fixed.horizontal,
-            --mylauncher,
             s.mytaglist,
             s.mypromptbox,
         },
-        mytextclock, -- s.mytasklist, -- Middle widget
+        mytextclock,--s.mytasklist, -- Middle widget
         { -- Right widgets
-            layout = wibox.layout.fixed.horizontal,
-            --mykeyboardlayout,
-            wibox.widget.systray(),
+        layout = wibox.layout.fixed.horizontal,
+            s.systray,
+            s.mytasklist,
             s.mylayoutbox,
         },
     }
@@ -229,6 +286,8 @@ root.buttons(gears.table.join(
     awful.button({ }, 5, awful.tag.viewprev)
 ))
 -- }}}
+
+activetags = {}
 
 -- {{{ Key bindings
 globalkeys = gears.table.join(
