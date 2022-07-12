@@ -115,15 +115,16 @@
 (use-package company)
 (add-hook 'after-init-hook 'global-company-mode)
 
+(use-package lua-mode)
 
 (use-package eglot)
 (add-to-list 'eglot-server-programs '((c++-mode c-mode) "clangd")) ;; C and C++
 (add-to-list 'eglot-server-programs 'python-mode "pylsp") ;; Python
-(add-to-list 'eglot-server-programs 'lua-mode "lua-language-server") ;; Lua
+;;(add-to-list 'eglot-server-programs 'lua-mode . lsp) ;; Lua
 (add-hook 'c-mode-hook 'eglot-ensure)
 (add-hook 'c++-mode-hook 'eglot-ensure)
 (add-hook 'python-mode-hook 'eglot-ensure)
-(add-hook 'lua-mode-hook 'eglot-ensure)
+;;(add-hook 'lua-mode-hook 'eglot-ensure)
 
 
 (use-package which-key
