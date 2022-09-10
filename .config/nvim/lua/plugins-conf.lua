@@ -14,6 +14,11 @@ require('lualine').setup({
     },
 })
 
+require("lf").setup()
+
 require("Comment").setup()
 
-require("nvim-tree").setup()
+--require("nvim-tree").setup()
+require("nvim-autopairs").setup()
+
+require("toggleterm").setup()

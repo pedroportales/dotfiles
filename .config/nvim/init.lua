@@ -9,7 +9,10 @@ require("paq")({
 	"saadparwaiz1/cmp_luasnip",
 	"L3MON4D3/LuaSnip",
 	"nvim-lualine/lualine.nvim",
-	'kyazdani42/nvim-tree.lua',
+	"lmburns/lf.nvim",
+	"windwp/nvim-autopairs",
+	"akinsho/toggleterm.nvim",
+--	'kyazdani42/nvim-tree.lua',
 	'kyazdani42/nvim-web-devicons',
 	'shaunsingh/nord.nvim',
 
