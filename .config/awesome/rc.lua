@@ -70,9 +70,9 @@ end
 beautiful.init("~/.config/awesome/themes/nord/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
-terminal = "tym"
+terminal = "kitty"
 --editor = os.getenv("EDITOR") or "nano"
-editor = "subl"
+editor = "nvim"
 editor_cmd = terminal .. " -e " .. editor
 
 -- Default modkey.
